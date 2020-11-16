@@ -1,0 +1,87 @@
+.navbar,
+.navbar__Signin {
+  padding: 1.2em 1.6em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: all 0.2s linear;
+}
+.navbar__Signin {
+  padding: 1.3em 3.1em;
+  justify-content: flex-start;
+}
+.navbar__logo {
+  object-fit: contain;
+  height: 1.3em;
+}
+.navbar__logoSignin {
+  object-fit: contain;
+  height: 2.2em;
+}
+.navbar__avatar {
+  object-fit: contain;
+  height: 1.8em;
+}
+.navbar.show {
+  background-color: #111;
+}
+.navbar__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 9em;
+}
+.navbar__btn {
+  padding: 0.6em 1.5em;
+  background-color: #e50914;
+  font-size: 0.8rem;
+  color: white;
+  outline: none;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: all 0.25s linear;
+}
+.navbar__btn:hover {
+  box-shadow: 0 0 10px -6px rgba(0, 0, 0, 0.5);
+  transform: scale(0.96);
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .navbar {
+    padding: 1.2em 1.5em;
+  }
+  .navbar__Signin {
+    padding: 1.3em 1.5em;
+  }
+  .navbar__right {
+    width: 6em;
+  }
+  .navbar__avatar {
+    height: 2em;
+  }
+  .navbar__logoSignin {
+    object-fit: contain;
+    height: 1.7em;
+  }
+  .navbar__btn {
+    padding: 1em 1.5em;
+    font-size: 0.6rem;
+    border-radius: 3px;
+  }
+  .navbar__right {
+    width: 7em;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 400px) {
+  .navbar {
+    padding: 1.2em 1em;
+  }
+}
