@@ -1,8 +1,14 @@
 # NETFLIX WEB CLONE
 
-## Facebook Authentication and Email/Password Auth
+## Facebook Authentication(Pop-Up) and Email/Password Auth
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Login Form (Email/Password)
+
+![Login Form](./src/Images/Snap-1.jpg)
+
+### NetFlix Clone Home Page
+
+![Home Page](./src/Images/Snap-2.jpg)
 
 ## Tech Used:
 
